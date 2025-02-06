@@ -1,6 +1,6 @@
 export default function AlertBox() {
   return (
-    <div className="m-2 w-92 rounded-md border-2 border-fuchsia-200 bg-white p-4 shadow-lg">
+    <div className="m-2 w-92 rounded-md border-2 border-fuchsia-500 bg-white p-4 shadow-lg">
       <h3 className="mb-2 text-2xl font-bold text-fuchsia-600 antialiased">
         An Important Alert
       </h3>
