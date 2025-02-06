@@ -10,7 +10,7 @@ export default function AlertBox() {
         since the 1500s, when an unknown printer took a galley of type and
         scrambled it to make a type specimen book.
       </p>
-      <div className="mt-3 flex flex-row gap-2">
+      <div className="mt-3 space-x-2">
         <button className="rounded-md border-2 border-fuchsia-500 bg-fuchsia-200 px-2 py-1 font-semibold text-fuchsia-600 antialiased">
           Confirm
         </button>
