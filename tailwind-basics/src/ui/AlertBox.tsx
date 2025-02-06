@@ -1,7 +1,7 @@
 export default function AlertBox() {
   return (
-    <div className="m-2 w-92 rounded-md border-2 border-fuchsia-500 bg-white p-4 shadow-lg">
-      <h3 className="mb-2 text-2xl font-bold text-fuchsia-500 antialiased">
+    <div className="m-2 w-92 rounded-md border-2 border-fuchsia-200 bg-white p-4 shadow-lg">
+      <h3 className="mb-2 text-2xl font-bold text-fuchsia-600 antialiased">
         An Important Alert
       </h3>
       <p className="antialiased">
@@ -11,10 +11,10 @@ export default function AlertBox() {
         scrambled it to make a type specimen book.
       </p>
       <div className="mt-3 flex flex-row gap-2">
-        <button className="rounded-md border-2 border-fuchsia-500 bg-fuchsia-400 px-2 py-1 font-semibold text-white antialiased">
+        <button className="rounded-md border-2 border-fuchsia-500 bg-fuchsia-200 px-2 py-1 font-semibold text-fuchsia-600 antialiased">
           Confirm
         </button>
-        <button className="rounded-md border-2 border-fuchsia-300 px-2 py-1 font-semibold text-fuchsia-300 antialiased">
+        <button className="rounded-md border-2 border-fuchsia-500 px-2 py-1 font-semibold text-fuchsia-600 antialiased">
           Cancel
         </button>
       </div>
